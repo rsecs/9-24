@@ -1,0 +1,32 @@
+{
+  "password": "we123456",
+  "method": "aes-128-ctr",
+  "protocol": "origin",
+  "protocol_param": "",
+  "obfs": "plain",
+  "obfs_param": "",
+
+  "udp": true,
+  "idle_timeout": 300,
+  "connect_timeout": 6,
+  "udp_timeout": 6,
+
+  "server_settings": {
+    "listen_address": "0.0.0.0",
+    "listen_port": 8080
+  },
+
+  "client_settings": {
+    "server": "appname.webapp.io",
+    "server_port": 443,
+    "listen_address": "0.0.0.0",
+    "listen_port": 1080
+  },
+
+  "over_tls_settings": {
+    "enable": true,
+    "server_domain": "appname.webapp.io",
+    "path": "/we123456/",
+    "root_cert_file": ""
+  }
+}
